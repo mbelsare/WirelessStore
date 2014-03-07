@@ -1,0 +1,126 @@
+body {
+   margin: 10px 10px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   font-color:#FE2EC8;
+    line-height: 20px;
+    color: #333333;
+    background-color: #E6E6E6;   
+}
+#main{
+	position:relative;
+	width:99%;
+    /*height:700px;*/
+	margin:1px;
+}
+#header_nav {
+	position:relative;
+	height:70px;
+	width:100%;
+}
+#header_left{
+  position:relative;
+  background-color: pink;
+  width:15%;
+  float:left;
+  text-align:center;
+}
+#header_right{
+  position:relative;
+  width:60%;
+  float:right;
+}
+#header_right ul li{
+	display: inline;
+	padding: 10px;
+	position:relative;
+	float: right;
+	text-align:right;
+}
+
+#main_box {
+	position: relative;
+	height:100%;
+	width:100%;
+	border-top:1px solid black;	
+	border-bottom:1px solid black;
+}
+#nav_box {
+	position:relative;
+	float:left;
+	width:10%;
+}
+   
+h2{
+	color:pink
+}
+
+
+.basictab{
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	
+	
+	list-style-type: none;
+	text-align: left;
+	height: 100%;
+	width:100%;
+}
+
+.basictab li{
+	display: block;
+	padding: 10px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom: 1px dashed black;
+	border-left: 1px dashed black;
+	border-right: 1px dashed black;
+	background-color: lightgray;
+}
+
+.basictab li a{
+	text-decoration: none;
+	margin: 0;
+	color: black;
+}
+
+.basictab li:hover{
+	background-color: pink;
+}
+
+.basictab li.selected{
+	position: relative;
+	background-color: pink;
+	border-bottom: none;
+}
+
+#content_box{
+	position:relative;
+	float:right;
+	width:88%;
+	margin-left:5px;
+}
+
+#basic_table{
+	border-collapse: collapse;
+	border: 0px solid black;
+	width:100%;	
+}
+
+#basic_table td, th {
+	padding: 5px;
+	text-align: center;
+}
+
+.circleNotes {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background: pink;
+    border: 1px solid black;
+    text-align:center;
+    padding:5px;
+    float:left;
+}

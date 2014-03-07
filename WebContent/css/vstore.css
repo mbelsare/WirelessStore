@@ -1,0 +1,151 @@
+body {
+   margin: 10px 10px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+    line-height: 20px;
+    color: black;
+    background-color: #F6D8CE;   
+}
+#main{
+	position:relative;
+	width:99%;
+    /*height:700px;*/
+	margin:1px;
+}
+#header_nav {
+	position:relative;
+	height:70px;
+	width:100%;
+	margin-bottom: 20px;
+  	margin-left: 0;
+  	list-style: none;	
+}
+#header_left{
+  position:relative;
+  background-color: red;
+  width:15%;
+  float:left;
+  color:white;
+  text-align:center;
+}
+#header_right{
+  position:relative;
+  width:60%;
+  float:right;
+}
+#header_right ul li{
+	display: inline;
+	padding: 10px;
+	position:relative;
+	float: right;
+	text-align:right;
+}
+
+#main_box {
+	position: relative;
+	height:100%;
+	width:100%;
+	border-top:1px solid black;	
+	border-bottom:1px solid black;
+}
+#nav_box {
+	position:relative;
+    float:inherit;
+    width:100%;
+}
+   
+h2{
+    position:relative;
+	color:red
+}
+
+
+.basictab{
+	position: relative;
+    float:right;	
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #ddd;
+	
+	list-style-type: none;
+	text-align: left;
+    height: 100%;
+	width:70%;
+}
+
+.basictab li{
+	display: inline-block;
+	padding: 10px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom: 1px black;
+	border-left: 1px  black;
+	border-right: 1px black;
+	background-color: #FAFAFA;
+	margin-bottom: -1px;	
+}
+
+.basictab li a{
+	text-decoration: none;
+	margin: 0;
+	color: black;
+	  padding-top: 8px;
+  	padding-bottom: 8px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
+}
+
+.basictab li:hover{
+	background-color: red;
+	border-color: #eeeeee #eeeeee #dddddd;
+	
+}
+
+.basictab > .active > a,
+.basictab > .active > a:hover,
+.basictab > .active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.basictab li.selected{
+	position: relative;
+	background-color: red;
+	border-bottom: none;
+}
+
+#content_box{
+	position:relative;
+	float:inherit;
+	width:88%;
+	margin-left:5px;
+}
+
+#basic_table{
+	border-collapse: collapse;
+	border: 0px solid black;
+	width:100%;	
+}
+
+#basic_table td, th {
+	padding: 5px;
+	text-align: center;
+}
+
+.circleNotes {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border: 1px solid black;
+    text-align:center;
+    padding:5px;
+    float:left;
+}
